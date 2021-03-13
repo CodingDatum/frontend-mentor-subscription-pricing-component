@@ -119,6 +119,16 @@ hr{
     cursor: pointer;
 }
 
+.learn-more:hover{
+    background-color: hsl(240, 78%, 98%);
+    color: hsl(237, 63%, 64%);
+}
+
+#middle-card:hover{
+    background-color: hsl(237, 63%, 64%);
+    color: hsl(240, 78%, 98%);
+}
+
 
 /* MIDDLE CARD */
 
