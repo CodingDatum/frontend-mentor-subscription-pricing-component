@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    transition: 1s all ease;
+    color: hsl(233, 13%, 49%);
+}
+
+body{
+    background-color: hsl(240, 78%, 98%);
+    background-image: url("images/bg-bottom.svg"), url("images/bg-top.svg");
+    background-repeat: no-repeat;
+    background-position:left bottom, right top;
+    height:100vh;
+    width: 100vw;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 60px auto 58px;
+    width: 15vw;
+    height: 100px;
+}
+
+main{
+    height: 444px;
+    margin: 0px 300px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+h1{
+    font-size: 2.2rem;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+
+hr{
+    border: none;
+    border-top: 1px solid hsl(234, 14%, 74%);
+    height: 0px;
+}
+
+.toggle-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.toggle-container p{
+    color: hsl(234, 14%, 74%);
+}
+
+.button-container{
+    border-radius: 30px;
+    background: linear-gradient(90deg,hsl(236, 72%, 79%),hsl(237, 63%, 64%));
+    width: 55px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.toggle-button{
+    border-radius: 100%;
+    height: 23px;
+    width: 23px;
+    background-color: hsl(240, 78%, 98%);
+    margin-left: 5px;
+}
+
+.card{
+
+    flex-basis: 33.33%;
+    height: 90%;
+    background-color: white;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+
+    padding: 25px;
+    
+}
+
+.large-number{
+    font-size: 5rem;
+    /* margin-top: -20px; */
+}
+
+.dollar-sign{
+    font-size: 2.5rem;
+}
+
+.large-numbers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-more{
+    background: linear-gradient(180deg,hsl(236, 72%, 79%),hsl(237, 63%, 64%));
+    color: hsl(240, 78%, 98%);
+    border-radius: 5px;
+    padding: 10px;
+    align-self: stretch;
+    margin-top:13px;
+    cursor: pointer;
+}
+
+
+/* MIDDLE CARD */
+
+#middle-card{
+    
+    height: 100%;
+    background: linear-gradient(315deg,hsl(236, 72%, 79%),hsl(237, 63%, 64%));
+
+}
+
+#middle-card p, #middle-card h2, #middle-card .large-number, #middle-card .dollar-sign{
+    color:white;
+}
+
+#middle-card .learn-more{
+    background: none;
+    background-color:hsl(240, 78%, 98%);
+    color: hsl(237, 63%, 64%);
+}
+
+/* BUTTON SLIDE */
+
+.slide{
+    transform: translateX(20px);
+}
