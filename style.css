@@ -119,16 +119,6 @@ hr{
     cursor: pointer;
 }
 
-.learn-more:hover{
-    background-color: hsl(240, 78%, 98%);
-    color: hsl(237, 63%, 64%);
-}
-
-#middle-card:hover{
-    background-color: hsl(237, 63%, 64%);
-    color: hsl(240, 78%, 98%);
-}
-
 
 /* MIDDLE CARD */
 
@@ -153,4 +143,17 @@ hr{
 
 .slide{
     transform: translateX(20px);
+}
+
+.learn-more:hover{
+    
+    background-color: hsl(240, 78%, 98%);
+    color: hsl(237, 63%, 64%);
+    background: none;
+}
+
+#middle-card .learn-more:hover{
+    background:none;
+    background: linear-gradient(315deg,hsl(237, 63%, 64%) , hsl(236, 72%, 79%));
+    color: hsl(240, 78%, 98%);
 }
